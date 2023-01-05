@@ -1,0 +1,9 @@
+data
+.DS_Store
+*.csv
+*.mp4
+*.avi
+*.jpg
+*.jpeg
+*.png
+*.txt
