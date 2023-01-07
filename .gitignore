@@ -1,5 +1,6 @@
 data
 .DS_Store
+notebooks/.ipynb_checkpoints 
 *.csv
 *.mp4
 *.avi
