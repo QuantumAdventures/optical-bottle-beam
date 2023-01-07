@@ -51,36 +51,36 @@ pip install -r requirements.txt
     
 In the end you should have the following directory structure:
 
-.
-├── data
-│   ├── dataframes
-│   │   ├── filtered
-│   │   ├── outliers
-│   │   └── raw
-│   ├── images
-│   │   ├── circle
-│   │   ├── hour
-│   │   ├── long
-│   │   └── square
-│   ├── plots
-│   ├── quadrant
-│   ├── results
-│   ├── simulations
-│   │   ├── error_analysis
-│   │   ├── kl
-│   │   └── obb_nas
-│   └── videos
-├── notebooks
-│   ├── 1. Create frames from video.ipynb
-│   ├── 2. Microparticle detection and tracking.ipynb
-│   ├── 2.1. Execute detection for multiple images.ipynb
-│   ├── 3. Potential Analysis with Multiple Parameters.ipynb
-│   ├── 4. Kullback-Liebler Analysis.ipynb
-│   ├── 5. Error Analysis for Intermediate Regime.ipynb
-│   └── 6. Gaussianity tests for optical tweezers.ipynb
-├── LICENSE
-├── README.md
-└── requirements.txt
+
+    ├── data
+    │   ├── dataframes
+    │   │   ├── filtered
+    │   │   ├── outliers
+    │   │   └── raw
+    │   ├── images
+    │   │   ├── circle
+    │   │   ├── hour
+    │   │   ├── long
+    │   │   └── square
+    │   ├── plots
+    │   ├── quadrant
+    │   ├── results
+    │   ├── simulations
+    │   │   ├── error_analysis
+    │   │   ├── kl
+    │   │   └── obb_nas
+    │   └── videos
+    ├── notebooks
+    │   ├── 1. Create frames from video.ipynb
+    │   ├── 2. Microparticle detection and tracking.ipynb
+    │   ├── 2.1. Execute detection for multiple images.ipynb
+    │   ├── 3. Potential Analysis with Multiple Parameters.ipynb
+    │   ├── 4. Kullback-Liebler Analysis.ipynb
+    │   ├── 5. Error Analysis for Intermediate Regime.ipynb
+    │   └── 6. Gaussianity tests for optical tweezers.ipynb
+    ├── LICENSE
+    ├── README.md
+    └── requirements.txt
 
 ## Usage
 
