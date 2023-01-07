@@ -41,43 +41,77 @@ pip install -r requirements.txt
     git clone https://github.com/QuantumAdventures/optical-bottle-beam.git
     ```
 
-    * Or, execute the following command (in the terminal like a boss :sunglasses:)
+    * Or, execute the following command inside the project folder (in the terminal like a boss :sunglasses:)
 
     ```bash
-    git clone git@github.com:QuantumAdventures/optical-bottle-beam.git
+    ./download.sh
     ```
 
-    * Or, by downloading the .zip of the repo.
+    For this you are going to need wget (can be install with `sudo apt get wget` or `brew install wget` depending on the OS you use).
+    
+In the end you should have the following directory structure:
+
+.
+├── data
+│   ├── dataframes
+│   │   ├── filtered
+│   │   ├── outliers
+│   │   └── raw
+│   ├── images
+│   │   ├── circle
+│   │   ├── hour
+│   │   ├── long
+│   │   └── square
+│   ├── plots
+│   ├── quadrant
+│   ├── results
+│   ├── simulations
+│   │   ├── error_analysis
+│   │   ├── kl
+│   │   └── obb_nas
+│   └── videos
+├── notebooks
+│   ├── 1. Create frames from video.ipynb
+│   ├── 2. Microparticle detection and tracking.ipynb
+│   ├── 2.1. Execute detection for multiple images.ipynb
+│   ├── 3. Potential Analysis with Multiple Parameters.ipynb
+│   ├── 4. Kullback-Liebler Analysis.ipynb
+│   ├── 5. Error Analysis for Intermediate Regime.ipynb
+│   └── 6. Gaussianity tests for optical tweezers.ipynb
+├── LICENSE
+├── README.md
+└── requirements.txt
 
 ## Usage
 
 Easy explanation for the future
 
 ```python
-import numpy as np
-from pymentor import Mentor
-# direct kinematics example
-angles = [np.pi/6]*5
-robot = Mentor()
-pos, rot = robot.get_position(angles)
-# pos is 4x1 vector 
-# rot is 3x3 rotation matrix
-       
-pos = np.array([24.21323027, 13.97951501, -17.07885504, 1.0])
-rot = np.array([[0.59049287, 0.23642905, -0.77163428],
-    [-0.23642905, -0.86349762, -0.44550326],
-    [-0.77163428, 0.44550326, -0.4539905 ]])
-# pos is 4x1 vector 
-# rot is 3x3 rotation matrix
-angles = robot.get_angles(pos,rot)
-
-
-# creating rotational matrix from alpha-beta-gamma angles
-rot = robot.get_orientation(np.pi/6, np.pi/6, np.pi/6)
+aaaa
 ```
 
 ## License
+
+This code is licensed by:
+
 General Public License version 3.0 [GPL-3.0](https://choosealicense.com/licenses/gpl-3.0/)
+
+
+Copyright (C) 2022  Quantum Adventures: Pontifical University of Rio de Janeiro
+research group for optomechanics, quantum optics and quantum information of 
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 ## Contact
 
