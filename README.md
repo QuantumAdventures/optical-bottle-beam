@@ -21,11 +21,11 @@ Well, now, how you can run this code? Follow the next steps.
 
     * Via HTTPS:
 
-```bash
-git clone git@github.com:QuantumAdventures/optical-bottle-beam.git
-```
+    ```bash
+    git clone git@github.com:QuantumAdventures/optical-bottle-beam.git
+    ```
 
-* Or, by downloading the .zip of the repo.
+    * Or, by downloading the .zip of the repo.
 
 2. Install the requirements, this is will set the libraries used in your computer. Inside the main folder of the project run the following command:
 
@@ -33,7 +33,21 @@ git clone git@github.com:QuantumAdventures/optical-bottle-beam.git
 pip install -r requirements.txt
 ```
 
-3. Download data
+3. Download the data! A `data` folder is needed, to get all the data used and produced in the experiment you can
+
+    * Follow the link of drive, and dowload it.
+
+    ```bash
+    git clone https://github.com/QuantumAdventures/optical-bottle-beam.git
+    ```
+
+    * Or, execute the following command (in the terminal like a boss :like-a-boss)
+
+    ```bash
+    git clone git@github.com:QuantumAdventures/optical-bottle-beam.git
+    ```
+
+    * Or, by downloading the .zip of the repo.
 
 ## Usage
 
