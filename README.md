@@ -1,20 +1,26 @@
 # Code for the Optical Bottle Beam
 
-Add explanation lalallalalala
+This repo includes the code to process and analyse the data for the Optical Bottle Beam experiment. Here we are going to present:
 
-Awesome bullet points
 
-* One.
-* Two.
-* Ragatanga
+* Image processing methodologies to extract and track a Silica microparticle in a .mp4 video.
+* Statistical tools to analyse gaussianity (Kolmogorov-Smirnov test) in the data.
+* Functions to calculate Kullback-Leibler divergece between simulation and experiment, allowing to find which value of NA (Numerical Aberture) better fits the one in the experimental setup.
+* Functions to calculate Kullback-Leibler divergece between simulation and experiment, allowing to find which value of NA (Numerical Aberture) better fits the one in the experimental setup.
 
 ## Installation
 
-How to install this code
+How to install this code:
 
 ```bash
-pip install ------
+git clone https://github.com/QuantumAdventures/optical-bottle-beam.git
 ```
+
+```bash
+git clone git@github.com:QuantumAdventures/optical-bottle-beam.git
+```
+
+
 Download data
 
 ## Usage
