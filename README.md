@@ -6,7 +6,8 @@ This repo includes the code to process and analyse the data for the Optical Bott
 * Image processing methodologies to extract and track a Silica microparticle in a .mp4 video.
 * Statistical tools to analyse gaussianity (Kolmogorov-Smirnov test) in the data.
 * Functions to calculate Kullback-Leibler divergece between simulation and experiment, allowing to find which value of NA (Numerical Aberture) better fits the one in the experimental setup.
-* Functions to calculate Kullback-Leibler divergece between simulation and experiment, allowing to find which value of NA (Numerical Aberture) better fits the one in the experimental setup.
+* Potential analysis. Here, from the probability distributions, a `curve_fit` is executed considering a quartic potential, extracting constants $k_\rho$, $k_z$ and $k_{\rho,z}$.  to extract parameters  
+
 
 ## Installation
 
