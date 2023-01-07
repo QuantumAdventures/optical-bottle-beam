@@ -6,7 +6,7 @@ This repo includes the code to process and analyse the data for the Optical Bott
 * Image processing methodologies to extract and track a Silica microparticle in a .mp4 video.
 * Statistical tools to analyse gaussianity (Kolmogorov-Smirnov test) in the data.
 * Functions to calculate Kullback-Leibler divergece between simulation and experiment, allowing to find which value of NA (Numerical Aberture) better fits the one in the experimental setup.
-* Potential analysis. Here, from the probability distributions encountered of the microparticle center of mass coordinates, a `curve_fit` is executed considering a quartic potential. The fit results in the extraction of the following constants: $k_\rho$, $k_z$ and $k_{\rho,z}$. These parameters allow the reconstruction of the potential and provide useful insights regarding the optical trap.
+* Potential analysis. From the probability distributions encountered of the microparticle center of mass coordinates, a `curve_fit` is executed considering a quartic potential. The fit results in the extraction of the following constants: $k_\rho$, $k_z$ and $k_{\rho,z}$. These parameters allow the reconstruction of the potential and provide useful insights regarding the optical trap.
 
 ## Installation
 
@@ -84,11 +84,7 @@ In the end you should have the following directory structure:
 
 ## Usage
 
-Easy explanation for the future
-
-```python
-aaaa
-```
+With the data downloaded all the notebooks can be executed.
 
 ## License
 
@@ -116,8 +112,12 @@ along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ## Contact
 
 #Name - [Linkedin](https://www.linkedin.com/in) [Email](email)
+#Name - [Linkedin](https://www.linkedin.com/in) [Email](email)
+#Name - [Linkedin](https://www.linkedin.com/in) [Email](email)
+#Name - [Linkedin](https://www.linkedin.com/in) [Email](email)
 
-Project Link: [Repository](https://github.com)
+
+Project Link: [Repository](https://github.com/QuantumAdventures/optical-bottle-beam)
 
 ## References
 
