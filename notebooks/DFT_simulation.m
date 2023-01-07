@@ -172,28 +172,12 @@ for j = 1:length(list_of_NA)
             end
 
 
-         %simulationPositions_x{end+1} = positions;
-         %simulatedSignal_x{end+1} = positions(1:dt_s/dt:end);
-
-
-         %simulationPositions_z{end+1} = positions_z;
-         %simulatedSignal_z{end+1} = positions_z(1:dt_s/dt:end);
-
-         %simulationPositions_y{end+1} = positions_y;
-         %simulatedSignal_y{end+1} = positions_y(1:dt_s/dt:end);
          waitbar(M/trials, wb, sprintf('Progress: %d %%', floor(M/trials*100)));
 
-         f_storage=[fx,fy,fz];
-         positions_storage=[positions; positions_y; positions_z];%[simulationPositions_x{end+1},simulationPositions_y{end+1},simulationPositions_z{end+1}];
-
+         positions_storage=[positions; positions_y; positions_z];
          filename_positions = sprintf('OBB_positions_NA_%d_exp_%d.txt',int16(NA*100), experiment);
-         filename_forces = sprintf('OBB_forces_NA_%d_exp_%d.txt',int16(NA*100), experiment);
-
-         writematrix(f_storage, filename_forces);
          writematrix(positions_storage, filename_positions);
-
          sprintf('Experimento %d com NA %d  salvo!', experiment, int16(NA*100))
-
          waitbar(M/trials, wb, sprintf('Progress: %d %%', floor(M/trials*100)));
          close(wb) %testing it
 
@@ -202,11 +186,11 @@ for j = 1:length(list_of_NA)
 
     end
     
-    %Use essas linhas 4 linhas a seguir para salvar o experimento
-    %f_storage=[fx;fy;fz];
-    %filename_forces = sprintf('OBB_forces_NA_%d.txt',int16(NA*100));
-    %writematrix(f_storage, filename_forces); 
-    %sprintf(' Simulação  NA %d  concluido!', int16(NA*100))
+    
+    f_storage=[fx;fy;fz];
+    filename_forces = sprintf('OBB_forces_NA_%d.txt',int16(NA*100));
+    writematrix(f_storage, filename_forces); 
+    sprintf(' Simulação  NA %d  concluido!', int16(NA*100))
 end
 
 
