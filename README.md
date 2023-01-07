@@ -41,7 +41,7 @@ pip install -r requirements.txt
     git clone https://github.com/QuantumAdventures/optical-bottle-beam.git
     ```
 
-    * Or, execute the following command (in the terminal like a boss :sunglasses)
+    * Or, execute the following command (in the terminal like a boss :sunglasses:)
 
     ```bash
     git clone git@github.com:QuantumAdventures/optical-bottle-beam.git
