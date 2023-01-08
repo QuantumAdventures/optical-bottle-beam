@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 3. Download the data! A `data` folder is needed, to get all the data used and produced in the experiment you can
 
-    * Follow the link [here](https://drive.google.com/drive/folders/1XfC4z9nmNXJuaATl3Da6edwA65mmQBVx), and dowload it.
+    * Follow the link [here](https://drive.google.com/drive/folders/1XfC4z9nmNXJuaATl3Da6edwA65mmQBVx), and download it.
 
     * Or, execute the following command inside the project folder (in the terminal like a boss :sunglasses:)
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt
     ./download.sh
     ```
 
-    For this you are going to need wget (can be install with `sudo apt get wget` or `brew install wget` depending on the OS you use).
+    For this you are going to need wget (which can be installed with `sudo apt get wget` or `brew install wget`, depending on the OS you use).
     
 In the end you should have the following directory structure:
 
@@ -71,7 +71,7 @@ In the end you should have the following directory structure:
     │   ├── 2. Microparticle detection and tracking.ipynb
     │   ├── 2.1. Execute detection for multiple images.ipynb
     │   ├── 3. Potential Analysis with Multiple Parameters.ipynb
-    │   ├── 4. Kullback-Liebler Analysis.ipynb
+    │   ├── 4. Kullback-Leibler Analysis.ipynb
     │   ├── 5. Error Analysis for Intermediate Regime.ipynb
     │   └── 6. Gaussianity tests for optical tweezers.ipynb
     ├── scripts
