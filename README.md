@@ -10,9 +10,9 @@ This repo includes the code to process and analyse the data for the Optical Bott
 
 ## Installation
 
-Well, now, how you can run this code? Follow the next steps.
+Well, now, how can you run this code? Follow the next steps.
 
-1. First clone this repo in your computer. This can be done:
+1. First clone this repo in your computer. This can be done
     * Via SSH:
 
     ```bash
@@ -25,9 +25,9 @@ Well, now, how you can run this code? Follow the next steps.
     git clone git@github.com:QuantumAdventures/optical-bottle-beam.git
     ```
 
-    * Or, by downloading the .zip of the repo.
+    * Or, by downloading the .zip of the repo and unziping in your computer.
 
-2. Install the requirements, this is will set the libraries used in your computer. Inside the main folder of the project run the following command:
+2. Install the requirements, this will set the libraries needed with the correct version in your computer. Inside the main folder of the project run the following command:
 
 ```bash
 pip install -r requirements.txt
@@ -35,11 +35,7 @@ pip install -r requirements.txt
 
 3. Download the data! A `data` folder is needed, to get all the data used and produced in the experiment you can
 
-    * Follow the link of drive, and dowload it.
-
-    ```bash
-    git clone https://github.com/QuantumAdventures/optical-bottle-beam.git
-    ```
+    * Follow the link [here](https://drive.google.com/drive/folders/1XfC4z9nmNXJuaATl3Da6edwA65mmQBVx), and dowload it.
 
     * Or, execute the following command inside the project folder (in the terminal like a boss :sunglasses:)
 
@@ -78,13 +74,29 @@ In the end you should have the following directory structure:
     │   ├── 4. Kullback-Liebler Analysis.ipynb
     │   ├── 5. Error Analysis for Intermediate Regime.ipynb
     │   └── 6. Gaussianity tests for optical tweezers.ipynb
+    ├── scripts
+    │   ├── calculate_psd_of_experiments.py
+    │   ├── calculate_psd_of_simulations.py
+    │   ├── DFT_simulation.m
     ├── LICENSE
     ├── README.md
     └── requirements.txt
 
 ## Usage
 
-With the data downloaded all the notebooks can be executed.
+With the data downloaded all the notebooks can be executed. To execute the scripts, inside de `optical-bottle-beam` folder run the following command:
+
+```bash
+python scripts/calculate_psd_of_experiments.py
+```
+
+Or 
+
+```bash
+python scripts/calculate_psd_of_simulations.py
+```
+
+
 
 ## License
 
@@ -121,5 +133,7 @@ Project Link: [Repository](https://github.com/QuantumAdventures/optical-bottle-b
 
 ## References
 
-Author *Title* **2019 Latin American Robotics Symposium**. 2019.
-[doi:10.1109/LARS-SBR-WRE48964.2019.00049](doi:10.1109/LARS-SBR-WRE48964.2019.00049)
+To be added in the future, but will look something like this
+
+Authors *Title* **Journal of Randomic Random Things**. Year.
+[doi:xx.XXXXX/](doi:xx.XXXX/)

@@ -21,7 +21,7 @@ plt.rcParams["axes.linewidth"] = 2
 
 d = 'Oct-27-2022' #data que a coleta foi feita
 #names of the root folder, main folder and file where the traces are saved
-root_folder = r'Scripts/probe beam_PSD'
+root_folder = r'data/measures_psd'
 file_name = 'traces_CH2-CH3-CH4.npz'
 
 #Define the time array based on the sampling frequency choosen in the experiment

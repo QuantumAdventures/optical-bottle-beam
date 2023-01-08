@@ -13,7 +13,6 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits import mplot3d
-import numpy as np
 from scipy.optimize import curve_fit
 import scipy.signal as signal
 
@@ -52,7 +51,7 @@ for i in range(28, 61):
     f_c_x=[]
     f_c_z=[]
     for experiment in range(1,6):
-        filename_positions=r'OBB_positions_NA_%d'%NA + '_exp_%d.txt' %experiment
+        filename_positions=r'data/simulations/kl/OBB_positions_NA_%d'%NA + '_exp_%d.txt' %experiment
         data_positions= np.loadtxt(filename_positions, delimiter=',', skiprows=0, dtype=float)
         
         # Calculating PSD for the simulation
@@ -92,7 +91,7 @@ ax1.grid(alpha=0.4)
 
 # Uploading the KL curve that compares the simulation with the experimental data
 
-data='kl_153.csv'
+data='data/results/kl.csv'
 df=pd.read_csv(data)
 kl=df['mean']
 kl_std=df['std']
@@ -129,6 +128,4 @@ ax1[1].set(xlabel='NA')
 ax1[1].set_xticks(NA_list)
 
 ax1[1].set_yticks(list([0,1,2]))
-
-
-
+plt.show()
