@@ -86,7 +86,7 @@ In the end you should have the following directory structure:
 
 ## Usage
 
-With the data downloaded all the notebooks can be executed. To execute the scripts, inside de `optical-bottle-beam` folder run the following command:
+With the data downloaded, all the notebooks can be executed. To execute the scripts, run the following command inside the `optical-bottle-beam` folder:
 
 ```bash
 python scripts/calculate_psd_of_experiments.py
@@ -108,7 +108,7 @@ General Public License version 3.0 [GPL-3.0](https://choosealicense.com/licenses
 
 
 Copyright (C) 2022  Quantum Adventures: Pontifical University of Rio de Janeiro
-research group for optomechanics, quantum optics and quantum information of 
+research group for optomechanics, quantum optics and quantum information.
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
