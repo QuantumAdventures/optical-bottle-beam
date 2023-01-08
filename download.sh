@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "------------------------------------"
 echo "----- STARTING DOWNLOAD SCRIPT -----"
-FILEID=1SLH_QntBxyrtjvYarWA5Q1H6DexBN8ER
+FILEID=1EQsuj0uww0IU64bA8UmC6VZ5PThVjdbc
 FILENAME=data.zip
 echo "------------------------------------"
 echo "---- 1. Getting data from Drive ----"
